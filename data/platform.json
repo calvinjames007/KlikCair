@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"Uang Mudah",
+        "platformLogo":"https://seeklogo.com/images/S/spider-man-comic-new-logo-322E9DE914-seeklogo.com.png",
+        "location":"Bekasi",
+        "loanLimit":10000000,
+        "loanMethod":"Cicilan 12 Bulan"
+    },
+    {
+        "id":2,
+        "name":"Pinjaman Cepat",
+        "platformLogo":"https://seeklogo.com/images/S/spider-man-comic-new-logo-322E9DE914-seeklogo.com.png",
+        "location":"Jakarta",
+        "loanLimit":5000000,
+        "loanMethod":"Cicilan 6 Bulan"
+    },
+    {
+        "id":3,
+        "name":"Semua serba mudah",
+        "platformLogo":"https://seeklogo.com/images/S/spider-man-comic-new-logo-322E9DE914-seeklogo.com.png",
+        "location":"Bali",
+        "loanLimit":3000000,
+        "loanMethod":"Cicilan 3 Bulan"
+    }
+]

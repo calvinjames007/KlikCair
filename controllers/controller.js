@@ -93,7 +93,18 @@ class Controller {
     }
 
     static showProfile(req, res) {
-        res.render("6_profile")
+        console.log(req.session);
+        Profile.findOne({
+            where: {
+                id: req.session.UserId
+            }
+        })
+        .then((result) => {
+            res.render("6_profile", {result, title: `My Profile`})    
+        })
+        .catch((err) => {
+            res.send(err);
+        });
     }
 
     static logout(req, res) {

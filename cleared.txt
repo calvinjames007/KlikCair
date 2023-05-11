@@ -5,3 +5,4 @@
 5. bikin static search (model platform)
 6. add promise chain (add user + profile)
 7. fixing router (jika udah login, gabisa ke login page lagi alias stay di dashboard)
+8. add instante method (di profile ejs, di model ejs)

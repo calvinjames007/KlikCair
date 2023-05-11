@@ -13,6 +13,15 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
       Profile.belongsTo(models.User)
     }
+
+    getTitle(age) {
+      if (age < 18) {
+        return `Junior ${this.name}`
+      } else {
+        return `Senyoooor ${this.name}`
+      }
+    }
+
   }
   Profile.init({
     name: DataTypes.STRING,
